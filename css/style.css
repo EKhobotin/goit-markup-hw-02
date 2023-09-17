@@ -101,7 +101,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--logo-color-footer);
 }
-.list-item .list-title {
+.list-item .list-title,
+.list-item .list-title,
+.list-team .list-title,
+.list-team .list-title {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
@@ -120,8 +123,14 @@ body {
   font-size: 36px;
   text-align: center;
   font-weight: 700;
-  line-height: 1.1; /* 111.111% */
-  letter-spacing: 0.04em;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--text-color);
+}
+.teams {
+  background-color: #f4f4fd;
+}
+.list-team .list-item {
+  background-color: #ffffff;
 }
