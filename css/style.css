@@ -1,14 +1,58 @@
-:root{
-    --background-color: #FFFFFF;
+:root {
+  --background-color: #ffffff;
+  --logo-color: #4d5ae5;
+  --logo-color-part: #2e2f42;
+  --contacts-color: #434455;
 }
 * {
-    margin: 0;
-}
-ul {
-    list-style: none;
+  margin: 0;
 }
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: var(--logo-color);
+  letter-spacing: 0.03em;
+}
+.logo-part {
+  color: var(--logo-color-part);
+}
+.link {
+  text-decoration: none;
+}
+.menu-links {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.menu-links:hover,
+.menu-links:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+}
+.contact-item {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
