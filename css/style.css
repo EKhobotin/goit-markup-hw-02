@@ -101,3 +101,27 @@ body {
   letter-spacing: 0.02em;
   color: var(--logo-color-footer);
 }
+.list-item .list-title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.list-item .list-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.title-doing {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.1; /* 111.111% */
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--text-color);
+}
