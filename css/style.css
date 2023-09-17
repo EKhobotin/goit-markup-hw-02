@@ -3,6 +3,7 @@
   --logo-color: #4d5ae5;
   --logo-color-part: #2e2f42;
   --contacts-color: #434455;
+  --text-color: #2e2f42;
 }
 * {
   margin: 0;
@@ -19,7 +20,7 @@ body {
   text-decoration: none;
 }
 .logo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -30,19 +31,17 @@ body {
 .logo-part {
   color: var(--logo-color-part);
 }
-.link {
-  text-decoration: none;
-}
 .menu-links {
+  color: var(--text-color);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 0.5; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.menu-links:hover,
-.menu-links:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 .contacts {
@@ -55,4 +54,5 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: var(--contacts-color);
 }
