@@ -1,7 +1,8 @@
 :root {
   --background-color: #ffffff;
   --logo-color: #4d5ae5;
-  --logo-color-part: #2e2f42;
+  --logo-color-header: #2e2f42;
+  --logo-color-footer: #f4f4fd;
   --contacts-color: #434455;
   --text-color: #2e2f42;
   --bg-color-section: #2e2f42;
@@ -29,8 +30,8 @@ body {
   color: var(--logo-color);
   letter-spacing: 0.03em;
 }
-.logo-part {
-  color: var(--logo-color-part);
+.logo-part-header {
+  color: var(--logo-color-header);
 }
 .menu-links {
   color: var(--text-color);
@@ -42,9 +43,7 @@ body {
   letter-spacing: 0.02em;
 }
 .link:hover,
-.link:focus,
-.button:hover,
-.button:focus {
+.link:focus {
   color: #404bbf;
 }
 .contacts {
@@ -74,7 +73,7 @@ body {
 }
 .button {
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -82,4 +81,23 @@ body {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.footer {
+  background-color: var(--bg-color-section);
+}
+.logo-part-footer {
+  color: var(--logo-color-footer);
+}
+.footer-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: var(--logo-color-footer);
 }
