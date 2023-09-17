@@ -1,3 +1,6 @@
+:root{
+    --background-color: #FFFFFF;
+}
 * {
     margin: 0;
 }
@@ -5,5 +8,7 @@ ul {
     list-style: none;
 }
 body {
-    font-family: roboto, sans-serif;
+    font-family: "roboto", sans-serif;
+    color: #434455;
+    background-color: var(--background-color);
 }
