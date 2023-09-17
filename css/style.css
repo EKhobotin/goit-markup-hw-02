@@ -101,10 +101,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--logo-color-footer);
 }
-.list-item .list-title,
-.list-item .list-title,
-.list-team .list-title,
-.list-team .list-title {
+.list-title {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
@@ -112,12 +109,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.list-item .list-text {
+.list-text {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: var(--contacts-color);
 }
 .title {
   font-size: 36px;
@@ -133,4 +131,17 @@ body {
 }
 .list-team .list-item {
   background-color: #ffffff;
+}
+.button-filter {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: #404bbf;
+  color: #ffffff;
 }
