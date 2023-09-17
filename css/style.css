@@ -133,12 +133,14 @@ body {
   background-color: #ffffff;
 }
 .button-filter {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
   cursor: pointer;
+  color: var(--logo-color);
 }
 .button-filter:hover,
 .button-filter:focus {
